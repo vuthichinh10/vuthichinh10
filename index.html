@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book hotel</title>
+    <link rel="stylesheet" href="./acsset/base.css">
+    <link rel="stylesheet" href="./acsset/main.css">
+    <link rel="stylesheet" href="./acsset/reponsive.css">
+    <link rel="stylesheet" href="./acsset/font/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="heading">
+        <ul class="heading_list">
+            <li class="heading_item heading_logo"><a href="">
+                <i class="fa-solid fa-bed"></i>
+                Logo
+            </a></li>
+            <li class="heading_item"><a href="">Rooms</a></li>
+            <li class="heading_item"><a href="">About</a></li>
+            <li class="heading_item"><a href="">Contact</a></li>
+        </ul>
+        <div class="heading_pay">
+            <a href="">Book Now</a>
+        </div>
+    </div>
+
+    <div id="content">
+        <div class="grid">
+            <div class="slider ">
+                <div class="slider_img" ></div>
+                <div class="slider_box">
+                    <div class="box_name">
+                        <i class="fa-solid fa-bed"></i>
+                        Hotel Name
+                    </div>
+                    <form action="" class="content_inf">
+                            <div class="row">
+                                <div class="column_2">
+                                    <div class="information">
+                                        <i class="fa-regular fa-calendar"></i>
+                                        Check In<br>
+                                        <input type="date" name="" id="" required class="check">   
+                                    </div>
+                                    <div class="information">
+                                        <i class="fa-solid fa-person"></i>
+                                        Adults<br>
+                                        <input type="number" name="" id="" min="1" placeholder="1"> 
+                                    </div>
+                                </div>
+                                <div class="column_2">
+                                    <div class="information">
+                                        <i class="fa-regular fa-calendar"></i>
+                                        Check Out<br>
+                                        <input type="date" name="" id="" required class="check">   
+                                    </div>
+                                   
+                                    <div class="information">
+                                        <i class="fa-solid fa-child-reaching"></i>
+                                        Kids<br>
+                                        <input type="number" name="" id="" min="0" placeholder="0 "> 
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="search_inf">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                Search availability
+                            </button>
+                    </form>
+                </div>
+            </div>
+            <div class="row"> 
+                <div class="selection">
+                    <div class="selection_head">
+                        Rooms
+                    </div>
+                    <div class="selection_des">
+                        Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.
+                    </div>
+                    <div class="selection_input">
+                        <div class="column_2 selection_row ">
+                            <div class="selection_inf selection_inf-date">
+                                <i class="fa-regular fa-calendar"></i>
+                                Check In <br>
+                                <input type="date" name="" id="" required placeholder="DD/MM/YY">
+                            </div>
+                            <div class="selection_inf selection_inf-date" >
+                                <i class="fa-regular fa-calendar"></i>
+                                Check Out <br>
+                                <input type="date" name="" id="" required>
+                            </div>
+                        </div>
+                        <div class="column_2 selection_row">
+                            <div class="selection_inf selection_inf-number">
+                                <i class="fa-solid fa-person"></i>
+                                Adults <br>
+                                <input type="number" name="" id="" min="1" required placeholder="1">
+                            </div>
+                            <div class="selection_inf selection_inf-number">
+                                <i class="fa-solid fa-child-reaching"></i>
+                                Kids <br>
+                                <input type="number" name="" id="" min="0" required placeholder="0"> 
+                            </div>
+                            <div class="selection_inf-number ">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                Search<br>
+                                <button type="submit" class="selection_search" >
+                                search
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row classify_rooms ">
+                        <div class="column_3   classify_room ">
+                            <img src="./acsset/img/room_single.jpg" alt="room_single" class="selection_img">
+                            <div class="selection_img-desc">
+                                <span class="selection_img-desc-head">
+                                    Single Room
+                                </span>
+                                <span class="selection_img-desc-price">
+                                    From $99
+                                </span>
+                                <span class="selection_img-desc-classify">
+                                    Single bed
+                                </span>
+                                <span class="selection_img-desc-area">
+                                    15m
+                                    <span class="square">2</span>
+                                </span>
+                                <span class="selection_service">
+                                    <i class="fa-solid fa-bath"></i>
+                                    <i class="fa-solid fa-phone"></i>
+                                    <i class="fa-solid fa-wifi"></i>
+                                </span>
+                                <button type="submit" class="selection_btn">Choose Room</button>
+                            </div>
+                        </div>
+                        <div class="column_3  classify_room">
+                            <img src="./acsset/img/room_double.jpg" alt="room_double" class="selection_img">
+                            <div class="selection_img-desc">
+                                <span class="selection_img-desc-head">
+                                    Single Room
+                                </span>
+                                <span class="selection_img-desc-price">
+                                    From $99
+                                </span>
+                                <span class="selection_img-desc-classify">
+                                    Single bed
+                                </span>
+                                <span class="selection_img-desc-area">
+                                    25m
+                                    <span class="square">2</span>
+                                </span>
+                                <span class="selection_service">
+                                    <i class="fa-solid fa-bath"></i>
+                                    <i class="fa-solid fa-phone"></i>
+                                    <i class="fa-solid fa-wifi"></i>
+                                    <i class="fa-solid fa-tv"></i>
+                                </span>
+                                <button type="submit" class="selection_btn">Choose Room</button>
+                            </div>
+                        </div>
+                        <div class="column_3 classify_room">
+                            <img src="./acsset/img/room_deluxe.jpg" alt="room_deluxe" class="selection_img">
+                            <div class="selection_img-desc">
+                                <span class="selection_img-desc-head">
+                                    Single Room
+                                </span>
+                                <span class="selection_img-desc-price">
+                                    From $99
+                                </span>
+                                <span class="selection_img-desc-classify">
+                                    Single bed
+                                </span>
+                                <span class="selection_img-desc-area">
+                                    40m
+                                    <span class="square">2</span>
+                                </span>
+                                <span class="selection_service">
+                                    <i class="fa-solid fa-bath"></i>
+                                    <i class="fa-solid fa-phone"></i>
+                                    <i class="fa-solid fa-wifi"></i>
+                                    <i class="fa-solid fa-tv"></i>
+                                    <i class="fa-solid fa-martini-glass-empty"></i>
+                                    <i class="fa-solid fa-utensils"></i>
+                                </span>
+                                <button type="submit" class="selection_btn">Choose Room</button>
+                            </div>
+                        </div>
+                </div>
+            </div> 
+        </div>
+        <div class="about">
+            <div class="row">
+                <div class="column_3">
+                   <div class="about_inf">
+                    <span class="about-head">About</span>
+                    <p class="about_desc">
+                        Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    </p>
+                   </div>
+                    <div class=" about_pay">
+                        <span class="about_pay-head ">We accept:</span>
+                        <i class="fa-regular fa-credit-card about_pay-item"></i>
+                        <i class="fa-brands fa-cc-mastercard about_pay-item"></i>
+                        <i class="fa-brands fa-cc-amex about_pay-item"></i>
+                        <i class="fa-brands fa-cc-paypal about_pay-item"></i>
+                    </div>
+                </div>
+                <img src="./acsset/img/map.jpg" class="about_img" alt="hinh anh">
+            </div>
+            <div class="row about_contacts">
+                <div class="column_3 about_contact ">
+                    <a href="" >
+                        <i class="fa-solid fa-location-dot about_contact-icon"></i>
+                        423 Some adr, Chicago, US
+                    </a>
+                </div>
+                <div class="column_3 about_contact">
+                    <a href="tel:+00 151515" >
+                        <i class="fa-solid fa-phone about_contact-icon"></i>
+                        Phone: +00 151515
+                    </a>
+                </div>
+                <div class="column_3 about_contact">
+                    <a href="mailto: mail@mail.com">
+                        <i class="fa-solid fa-envelope about_contact-icon"></i>
+                        Email: mail@mail.com
+                    </a>
+                </div>
+        </div>
+        </div>
+    </div>
+    <div class="note">
+        <i class="fa-solid fa-info note-icon"></i>
+       <p class="note_content"> On demand, we can offer playstation, babycall, children care, dog equipment, etc.</p>
+    </div>
+    </div>
+    <div id="places">
+        <div class="place_head">
+            Our Hotels
+        </div>
+        <div class="place_introduce">
+            You can find our hotels anywhere in the world:
+        </div>
+        <div class="row place_row">
+            <div class="column_2">
+                <div class="img_cinque">
+                    <img src="./acsset/img/cinqueterre.jpg" alt="Cinque Terre" class="place_Cinque-Terre">
+                    <span class="place-titel">Cinque Terre</span>
+                </div>
+            </div>
+            <div class="column_2 img_padding">
+                <div class="row">
+                    <div class="column_2">
+                        <div class="img_Newyork">
+                            <img src="./acsset/img/newyork2.jpg" alt="Newyork" class="place_newyork">
+                            <span class="place-titel">Newyork</span>
+                        </div>
+                        <div class="img_Pisa">
+                            <img src="./acsset/img/pisa.jpg" alt="Pisa" class="place_Pisa">
+                            <span class="place-titel">Pisa</span>
+                        </div>
+                    </div>
+                    <div class="column_2">
+                        <div class="img_san">
+                            <img src="./acsset/img/sanfran.jpg" alt="San Francisco" class="place_san">
+                            <span class="place-titel">San Francisco</span>
+                        </div>
+                        <div class="img_paris">
+                            <img src="./acsset/img/paris.jpg" alt="Paris" class="place_paris">
+                            <span class="place-titel">Paris</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="offers">
+        <div class="offers_content">
+            <div class="offers_content-head">Get the best offers first! </div>
+            <div class="offers_content-titel">Join our newsletter.</div>
+            <form action="" class="offers_input">
+               <label  for="" class="offers_input-lable">Email</label><br>
+                <input type="email" name="" id=""  placeholder="Your email address" class="offers_input-inf" >
+                <button type="button" class="offers_sub">Subscrice</button>
+            </form>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="contact_content">
+            <div class="contact_content-head">Contact</div>
+            <div class="contact_content-titel">If you have any question , do not hesitate to ask them.</div>
+            <div class="contact_content-address">
+                <div class="contact_content-location">
+                    <i class="fa-solid fa-location-dot about_contact-icon"></i>
+                    chicago, US
+                </div>
+                <div class="contact_content-phone">
+                    <i class="fa-solid fa-phone about_contact-icon"></i>
+                    Phone: +00 151515
+                </div>
+                <div class="contact_content-email">
+                    <i class="fa-solid fa-envelope about_contact-icon"></i>
+                    Email: mail@mail.com
+                </div>
+            </div>
+            <form action="">
+                <div class="contact_content-inf">
+                    <input type="text" class="contact_content-inf-input" placeholder="Name" required>
+                    <input type="email" name="" id="" class="contact_content-inf-input" placeholder="Email" required>
+                    <input type="text" name="" id="" class="contact_content-inf-input" placeholder="Message" required>
+                </div>
+                <button class="contact_content-btn">SEND MESSAGE</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="footer_head">Find Us On</div>
+        <div class="footer_icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat-square"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <div class="footer_end">Powered by <a href="">w3.css</a></div>
+    </div>
+</body>
+</html>

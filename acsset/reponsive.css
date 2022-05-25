@@ -1,0 +1,100 @@
+@media(max-width : 600px) {
+    .grid{
+        width: 580px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .row{
+        display: block;
+    }
+    .column_2{
+        width: 100%;
+        padding: 0;
+    }
+    .column_3{
+        width: 100%;
+        padding: 0;
+    }
+    .slider_img{
+        background-size: contain;
+       height: 530px;
+    }
+    #heading{
+        display: block;
+      height: auto;
+      position: relative;
+    }
+    .heading_list, .heading_pay {
+        display: block; 
+    }
+    .heading_list{
+        margin: 0;
+    }
+    .heading_pay a {
+        width: 100%;
+    }
+    .heading_item , .heading_pay a { 
+        height: 45px;
+        display: flex;
+        justify-content: center;
+    }
+    .slider_box{
+        width: 93%;
+        top: 7%;
+        display: block;
+    }
+    .content_inf{
+        padding: 16px 12px;
+    }
+    
+    .information input {
+        margin-bottom: 20px;
+    }
+    .selection_input{
+        display: block;
+    }
+    .selection_row{
+        display: block;
+    }
+    .selection_inf{
+        width: 100%;
+        margin-top: 6px;
+        font-size: 1.6rem;
+    }
+    .selection_inf-number{
+        font-size: 1.6rem;
+        width: 100%;
+    }
+    .classify_room{
+        margin-bottom: 16px
+    }
+    .classify_room:first-child{
+        margin-left: 0;
+    }
+    .about{
+        padding: 16px;
+    }
+    .about_pay{
+        margin-bottom: 20px;
+    }
+    .about_img{
+        width: 100%;
+        margin: 0;
+    }
+    .about_contacts{
+        padding: 30px 0 20px;
+    }
+    .about_contact{
+        font-size: 1.8rem;
+        margin: 6px;
+    }
+    .place_row{
+        padding: 0 16px;
+    }
+    .img_cinque ,.img_Pisa {
+        margin-bottom: 16px;
+    }
+    .contact_content-address i{
+        font-size: 1.6rem;
+    }
+}
